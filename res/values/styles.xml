@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textedit_bg">#535353</color>
+    <color name="textedit_text">#ffffff</color>
+</resources>
