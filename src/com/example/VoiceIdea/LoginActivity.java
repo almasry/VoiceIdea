@@ -22,7 +22,6 @@ public class LoginActivity extends Activity {
         Button buttonLogin = (Button) findViewById(R.id.button_login);
         TextView registerScreen = (TextView) findViewById(R.id.link_to_register);
 
-
         //emailLogin.setTextColor(getResources().getColor(R.color.textedit_text));
         //passwordLogin.setTextColor(getResources().getColor(R.color.textedit_text));
         // emailLogin.setBackgroundColor(getResources().getColor(R.color.textedit_bg));

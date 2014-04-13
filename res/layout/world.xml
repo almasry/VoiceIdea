@@ -28,15 +28,14 @@
                           android:layout_height="wrap_content"
 
                           android:layout_alignParentRight="true">
-                <!-- World Button Start -->
+                <!-- Configuration Button Start -->
                 <ImageButton
-                        android:id="@+id/world_button"
+                        android:id="@+id/configuration_button"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:background="@drawable/borders"
-                        android:layout_alignParentRight="true"
-                        android:src="@drawable/planet"/>
-                <!-- World Button End -->
+                        android:src="@drawable/configuration"/>
+                <!-- COnfiguration Button End -->
 
                 <!-- Home Button Start -->
                 <ImageButton
@@ -44,11 +43,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:background="@drawable/borders"
-                        android:layout_alignParentRight="true"
                         android:src="@drawable/home"/>
                 <!-- Home Button Ends -->
 
             </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ffffff">
+
         </RelativeLayout>
 
 
